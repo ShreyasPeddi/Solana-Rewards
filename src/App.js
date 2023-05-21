@@ -6,7 +6,7 @@ import { useCallback } from 'react';
 
 
 const surveyJson =      {
-  "title": "Product/Market Fit Survey Template",
+  "title": "Solana Rewards",
   "pages": [
    {
     "name": "page1",
@@ -224,6 +224,7 @@ function App() {
 }
 
 function mintNFT(){
+  window.location.href = "http://localhost:3000/";
 
 }
 // async function jackalSetup(){
